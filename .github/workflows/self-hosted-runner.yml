@@ -9,7 +9,7 @@ on:
 
 jobs:
   self-hosted-job:    
-    runs-on: [ self-hosted, windows, x64, demo1 ]
+    runs-on: [ self-hosted, windows, x64, demo-bank ]
     steps:      
       - uses: actions/checkout@v2
       
