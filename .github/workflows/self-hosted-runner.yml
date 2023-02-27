@@ -9,7 +9,7 @@ on:
 
 jobs:
   self-hosted-job:    
-    runs-on: [ self-hosted, x64, linux ]
+    runs-on: [ self-hosted, x64, linux, demo-prisa ]
     steps:      
       - uses: actions/checkout@v2.5.0
       
