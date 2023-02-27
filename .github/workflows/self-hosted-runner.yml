@@ -9,7 +9,7 @@ on:
 
 jobs:
   self-hosted-job:    
-    runs-on: [ self-hosted, x64, linux, demo-shell-nov22 ]
+    runs-on: [ self-hosted, x64, linux ]
     steps:      
       - uses: actions/checkout@v2.5.0
       
