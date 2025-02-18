@@ -9,7 +9,7 @@ on:
 
 jobs:
   self-hosted-job:    
-    runs-on: [ self-hosted, x64, linux ]
+    runs-on: [ self-hosted, x64, demo-bbva-v2 ]
     steps:      
       - uses: actions/checkout@v2.5.0
       
